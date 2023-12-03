@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(228, 242, 254);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 380px;
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: #070607;
+  color: #ecf0f2;
+  padding: 1.5rem;
+}
+
+.header,
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 48px;
+  margin-right: 10px;
+}
+
+.logo .content {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.chip {
+  background-image: url("chip.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 2rem;
+}
+
+.card-detail .card-num {
+  margin-top: 10px;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.card-detail .name {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.card-info .valid {
+  font-size: 0.85rem;
+}
